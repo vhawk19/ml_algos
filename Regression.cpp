@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 typedef std::pair<double,double> d_pair;
-//using namespace std;
+
 d_pair type_linear(const std::vector<double>& x, const std::vector<double>& y) {
     const auto n    = x.size();
     const auto s_x  = std::accumulate(x.begin(), x.end(), 0.0);
